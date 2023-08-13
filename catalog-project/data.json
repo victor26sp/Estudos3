@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Modelo 1",
+    "description": "Descrição do Modelo 1",
+    "image": "images/imagem1.jpg"
+  },
+  {
+    "name": "Modelo 2",
+    "description": "Descrição do Modelo 2",
+    "image": "images/imagem2.jpg"
+  }
+  // ... adicione mais modelos aqui
+]

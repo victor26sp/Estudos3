@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Roupas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Catálogo de Roupas</h1>
+  <div id="catalog" class="catalog"></div>
+  <button id="addButton">Adicionar Novo Modelo</button>
+  <div id="modelFormContainer" class="hidden">
+    <h2>Cadastrar Novo Modelo</h2>
+    <form id="modelForm">
+      <label for="modelName">Nome:</label>
+      <input type="text" id="modelName" required><br>
+
+      <label for="modelDescription">Descrição:</label>
+      <textarea id="modelDescription" required></textarea><br>
+
+      <label for="modelImage">Imagem URL:</label>
+      <input type="url" id="modelImage" required><br>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
